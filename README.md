@@ -15,7 +15,7 @@ ___
 ```        
 
 ---
-### Create log directory if it doesn't exist.
+### 🎈Create log directory if it doesn't exist.
 ---
 ## Start with python 
 
