@@ -19,11 +19,13 @@
     - Refund
     - Purchase Date
     - Units
+    - Introductory Price Type
+    - Introductory Price Duration
   to_str: 
     - Subscriber ID
     - Customer Price
     - Developer Proceeds
 
   table: Purchases
-  sql_query: INSERT INTO Purchases(subscriber_id, date, price,subscriptions_id, customer_currency, developer_proceeds, proceeds_currency, preserved_pricing, proceeds_reason, client, device, country, subscriber_id_reset, refund, purchase_date, units) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
+  sql_query: INSERT INTO Purchases(subscriber_id, date, price,subscriptions_id, customer_currency, developer_proceeds, proceeds_currency, preserved_pricing, proceeds_reason, client, device, country, subscriber_id_reset, refund, purchase_date, units, type, price_duration) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
 

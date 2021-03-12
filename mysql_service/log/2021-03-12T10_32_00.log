@@ -1,0 +1,8 @@
+[2021-03-12 12:32:00,188][INFO][MySQLConfig.__init__:20] Reading MySQL Config file "mysql_config.yaml"   ()
+[2021-03-12 12:32:00,191][INFO][FilesConfig.__init__:72] Reading Files  file "file_config.yaml"   ()
+[2021-03-12 12:32:00,194][DEBUG][MySqlCon.__init__:29] Trying to connect to My SQL 127.0.0.1:3306/BetterMe   ()
+[2021-03-12 12:32:00,199][INFO][MySqlCon.__init__:31] Successfully connect to My SQL 127.0.0.1:3306/BetterMe   ()
+[2021-03-12 12:32:00,199][DEBUG][MySqlCon.process_files:48] Groups_config={'log': <ExtraKeepLoggerAdapter FilesConfig (DEBUG)>, '_yaml_filename': 'file_config.yaml', '_files_config': [<service.yaml.Files object at 0x11ea52a30>]}   ()
+[2021-03-12 12:32:00,199][INFO][MySqlCon._process_file:55] Start file processing   ()
+[2021-03-12 12:32:02,731][DEBUG][MySqlCon.__exit__:38] Trying to close conection -> 127.0.0.1:3306/BetterMe   ()
+[2021-03-12 12:32:02,731][DEBUG][MySqlCon.__exit__:40] Successfully closed conection -> 127.0.0.1:3306/BetterMe   ()
