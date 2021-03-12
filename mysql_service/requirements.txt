@@ -1,0 +1,4 @@
+PyMySQL
+PyYAML
+pandas
+numpy

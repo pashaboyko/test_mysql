@@ -1,0 +1,28 @@
+- !Files
+  version: 1_3
+  files_dir: './data_1_3/'  
+  files_pattern: '.txt'  
+  include_columns:
+    - Subscriber ID
+    - Event Date
+    - Customer Price
+    - Customer Currency
+    - Developer Proceeds
+    - Proceeds Currency
+    - Preserved Pricing
+    - Proceeds Reason
+    - Client
+    - Device
+    - Country
+    - Subscriber ID Reset
+    - Refund
+    - Purchase Date
+    - Units
+  to_str: 
+    - Subscriber ID
+    - Customer Price
+    - Developer Proceeds
+
+  table: Purchases
+  sql_query: INSERT INTO Purchases(subscriber_id, date, price, customer_currency, developer_proceeds, proceeds_currency, preserved_pricing, proceeds_reason, client, device, country, subscriber_id_reset, refund, purchase_date, units) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
+
